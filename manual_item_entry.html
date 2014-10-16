@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sign Up: Grocery List 2 GO</title>
+  <title>Manual Item Entry</title>
 
   <!-- Adds Bootswatch CSS  -->
   <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/paper/bootstrap.min.css">
@@ -21,18 +21,28 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h2>Thank's for deciding to sign up! We just need a little more info before you can get started.</h2>
+      <h2>Enter a New Item</h2>
     </div>
     <div class="row">
       <div class="col-md-12">
       <form role="form">
         <div class="form-group">
-          <label for="UserFirstName">First Name</label>
-          <input type="text" class="form-control" id="UserFirstName" placeholder="First Name">
+          <label for="ItemDescription">Description</label>
+          <input type="text" class="form-control" id="ItemDescription" placeholder="i.e. milk">
         </div>
         <div class="form-group">
-          <label for="UserLastName">Last Name</label>
-          <input type="text" class="form-control" id="UserLastName" placeholder="Last Name">
+          <label for="ItemCategory">Category</label>
+          <input type="text" class="form-control" id="ItemCategory" placeholder="i.e. dairy">
+        </div>
+        <div class="form-group">
+          <label for="ItemPerishable">Perishable?</label>
+          <input type="select" class="form-control" id="ItemPerishable" placeholder="">
+          <!-- Need to figure out how to use selects in forms
+          <select class="form-control">
+            <option>Y</option>
+            <option>N</option>
+          </select>
+          -->
         </div>
         <div class="form-group">
           <label for="UserEmail">Email Address</label>
