@@ -49,6 +49,19 @@
           <label for="ItemPurchDate">Purchase Date?</label>
           <input type="date" class="form-control" id="ItemPurchDate" placeholder="">
         </div>
+        <div class="form-group">
+          <label for="ItemQuantity ItemUnits">Quantity?</label>
+          <input type="number" class="form-control" id="ItemQuantity" placeholder="">
+          <select class="form-control" id="ItemUnits">
+            <option>oz</option>
+            <option>mL</option>
+            <option>L</option>
+            <option>g</option>
+            <option>bags</option>
+            <option>bars</option>
+            <option>pieces</option>
+          </select>
+        </div>
         <button type="submit" class="btn btn-success">Enter Item</button>
         <button type="cancel" class="btn btn-danger">Cancel</button>
       </form>
