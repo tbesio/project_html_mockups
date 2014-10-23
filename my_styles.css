@@ -2,3 +2,12 @@
   border-bottom: 2px solid black;
 }
 
+input[type=checkbox] {
+  display: none;
+}
+
+input:checked + label {
+  background: green;
+  padding: 1px;
+  border-radius: 5px;
+}
